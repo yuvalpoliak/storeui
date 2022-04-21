@@ -4,16 +4,18 @@ import { mobile } from '../responsive';
 const Container = styled.div`
     height: 100vh;
     width: 100vw;
-    background: teal ;
+    background: lightpink ;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid gray;
 
 `
 const Wrapper = styled.div`
     width: 25%;
     padding: 20px;
     background-color: white;
+    border: 1px solid navajowhite;
     ${mobile({width: '75%'})}
 `
 const Form = styled.form`
