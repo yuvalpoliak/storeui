@@ -115,7 +115,7 @@ const SummeryItem = styled.div`
 const SummeryItemText = styled.span``
 const SummeryItemPrice = styled.span``
 const Button = styled.button`
-    padding: 10px;
+    padding: 5px;
     width: 100%;
     background-color: black;
     color: white;
